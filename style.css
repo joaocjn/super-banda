@@ -1,0 +1,40 @@
+body{
+ width: 90%; /* largura da página */
+ max-width: 800px; /* largura máxima da página */
+ margin: auto; /* centralizar página*/
+ background: url(images/bg.jpg) center; /*plano de fundo da página*/
+
+ font-family: 'Lexend Mega'; /* fonte do texto - pra pegar fontes: google fonts*/
+ line-height: 1.5; /*espaçamento de linha*/
+ color: white; /*cor do texto - pode ajustar pelo proprio navegador - ferramentas de desenvolvedor*/
+}
+
+main{ /*segundo plano de fundo*/
+    background: #00000054;
+
+    padding: 5px 40px; /*Borda dentro do plano de fundo*/
+    margin-top: 20px; /*margem da página*/
+    border-radius: 20px; /*arredondar as bordas*/
+}
+
+.logo{
+    text-align: center;
+}
+.titulo{
+    text-align: center;
+}
+.sub{
+    text-align: center;
+}
+
+.shows{
+    margin: 30px 0; /*cima e baixo e esquerda e direita respectivamente*/
+    text-align: center;
+    width: 100%;
+}
+.shows table{
+    background: #ff000054;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 0 auto;
+}
